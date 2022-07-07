@@ -21,7 +21,10 @@
     "extends": [
       "react-app",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "no-debugger": "off"
+    }
   },
   "browserslist": {
     "production": [
